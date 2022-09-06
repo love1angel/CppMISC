@@ -12,10 +12,16 @@ typename T::size_type len(const T &t)
     return t.size();
 }
 
+#include "design_pattern/behavior/abstract_method/StrDisplay.hh"
+
+
 int main()
 {
     std::cout << len(vec) << std::endl;
     std::cout << typeid(xp::enable_if<true>::type).name() << std::endl;
     std::cout << xp::is_same<xp::enable_if<true>::type, int>::value << std::endl;
+
+    StrDisplay display;
+    display.display();
     return 0;
 }
