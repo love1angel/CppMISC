@@ -2,6 +2,7 @@
 #include <vector>
 #include "include/type_traits.hh"
 #include <future>
+#include <atomic>
 
 enum int2 : int {
 };
@@ -30,6 +31,11 @@ void test_()
     }
 }
 
+#include <shared_mutex>
+#include <unordered_map>
+
+std::shared_mutex mutex;
+
 int main()
 {
 //    std::cout << len(vec) << std::endl;
@@ -38,6 +44,13 @@ int main()
 //
 //    StrDisplay display;
 //    display.display();
+
+    std::unordered_map<int, int> map;
+    map[1] = 10;
+    map[2] = 10;
+
+    std::cout << map.size() << std::endl;
+    map.at()
 
     std::thread t1(test);
     std::thread t2(test);

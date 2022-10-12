@@ -19,6 +19,7 @@ public:
         return m_instance;
     }
 
+private:
     static std::shared_ptr<Singleton> m_instance;
     static std::mutex m_getMutex;
 };
