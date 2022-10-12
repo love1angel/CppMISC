@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include "include/type_traits.hh"
+#include <future>
 
 enum int2 : int {
 };
@@ -15,13 +16,43 @@ typename T::size_type len(const T &t)
 #include "design_pattern/behavior/abstract_method/StrDisplay.hh"
 
 
+volatile int i = 0;
+
+void test()
+{
+    for (int j = 0; j < 10; ++j) {
+        i = i + 1;
+    }
+}
+
+void test_()
+{
+    for (int j = 0; j < 10; ++j) {
+        i--;
+    }
+}
+
 int main()
 {
-    std::cout << len(vec) << std::endl;
-    std::cout << typeid(xp::enable_if<true>::type).name() << std::endl;
-    std::cout << xp::is_same<xp::enable_if<true>::type, int>::value << std::endl;
+//    std::cout << len(vec) << std::endl;
+//    std::cout << typeid(xp::enable_if<true>::type).name() << std::endl;
+//    std::cout << xp::is_same<xp::enable_if<true>::type, int>::value << std::endl;
+//
+//    StrDisplay display;
+//    display.display();
 
-    StrDisplay display;
-    display.display();
+    std::thread t1(test);
+    std::thread t2(test);
+    std::thread t3(test_);
+    std::thread t4(test_);
+    std::atomic_compare_exchange_strong()
+    std::shared_ptr
+
+    t1.join();
+    t2.join();
+    t3.join();
+    t4.join();
+
+    std::cout << i << std::endl;
     return 0;
 }
