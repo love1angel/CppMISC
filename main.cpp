@@ -26,7 +26,7 @@ void test()
 void test_()
 {
     for (int j = 0; j < 10; ++j) {
-        i--;
+        i = i - 1;
     }
 }
 
