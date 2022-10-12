@@ -10,3 +10,6 @@ add_subdirectory(${PROJECT_SOURCE_DIR}/3rdparty/googletest)
 add_subdirectory(pattern)
 
 add_executable(${PROJECT_NAME} main.cpp)
+
+find_package(Threads REQUIRED)
+target_link_libraries(${PROJECT_NAME} Threads::Threads)
