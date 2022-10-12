@@ -13,8 +13,6 @@ typename T::size_type len(const T &t)
     return t.size();
 }
 
-#include "design_pattern/behavior/abstract_method/StrDisplay.hh"
-
 
 volatile int i = 0;
 
@@ -45,8 +43,6 @@ int main()
     std::thread t2(test);
     std::thread t3(test_);
     std::thread t4(test_);
-    std::atomic_compare_exchange_strong()
-    std::shared_ptr
 
     t1.join();
     t2.join();

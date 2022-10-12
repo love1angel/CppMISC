@@ -15,5 +15,4 @@ add_executable(ut_singleton
 
 target_link_libraries(ut_singleton gtest gtest_main)
 
-add_test(ut_singleton ut_singleton)
-
+add_test(NAME ut_singleton COMMAND ut_singleton)

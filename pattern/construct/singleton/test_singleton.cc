@@ -2,10 +2,6 @@
 // Created by Helianthus Xie on 2022/10/12.
 //
 
-//
-// Created by Helianthus Xie on 2022/10/12.
-//
-
 #include <gtest/gtest.h>
 
 #include "Singleton.hpp"

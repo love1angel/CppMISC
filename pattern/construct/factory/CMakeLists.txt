@@ -15,5 +15,4 @@ add_executable(ut_factory
 
 target_link_libraries(ut_factory gtest gtest_main)
 
-add_test(ut_factory ut_factory)
-
+add_test(NAME ut_factory COMMAND ut_factory)
