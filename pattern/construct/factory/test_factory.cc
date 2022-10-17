@@ -4,12 +4,12 @@
 
 #include <gtest/gtest.h>
 
-#include "Factory.hpp"
+#include "Setting.hpp"
+#include "SettingFactory.hpp"
 
 TEST(Factory, init)
 {
-    auto ptr = std::make_shared<ConcreteFactory>();
-    auto product = ptr->createProduct();
+    auto instance = createSetting();
 
-    EXPECT_TRUE(product->doSth());
+    EXPECT_EQ(1, instance->getSth());
 }
