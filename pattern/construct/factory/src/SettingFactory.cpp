@@ -16,5 +16,3 @@ std::shared_ptr<Setting> createSetting()
     }
     return retVal;
 }
-
-

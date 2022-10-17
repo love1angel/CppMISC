@@ -2,8 +2,8 @@
 // Created by Helianthus Xie on 2022/10/17.
 //
 
-#ifndef LIB_PRODUCTIMPL_HPP
-#define LIB_PRODUCTIMPL_HPP
+#ifndef PATTERN_FACTORY_SETTING_IMPL_HPP
+#define PATTERN_FACTORY_SETTING_IMPL_HPP
 
 #include "Setting.hpp"
 
@@ -16,4 +16,4 @@ public:
     int getSth() const override;
 };
 
-#endif //LIB_PRODUCTIMPL_HPP
+#endif //PATTERN_FACTORY_SETTING_IMPL_HPP
