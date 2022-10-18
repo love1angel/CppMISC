@@ -7,10 +7,9 @@
 
 class Setting {
 public:
-    virtual ~Setting()
-    {}
+    virtual ~Setting() = default;
 
-    virtual int getSth() const = 0;
+    [[nodiscard]] virtual int getSth() const = 0;
 };
 
 #endif //PATTERN_FACTORY_SETTING_HPP

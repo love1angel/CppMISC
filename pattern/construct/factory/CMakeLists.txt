@@ -11,6 +11,7 @@ set(HEADER
 
 set(SRC
         src/SettingFactory.cpp
+        src/SettingImpl.hpp
         src/SettingImpl.cpp)
 
 add_executable(ut_factory

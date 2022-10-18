@@ -11,9 +11,9 @@ class SettingImpl : public Setting {
 public:
     SettingImpl() = default;
 
-    virtual ~SettingImpl() = default;
+    ~SettingImpl() override = default;
 
-    int getSth() const override;
+    [[nodiscard]] int getSth() const override;
 };
 
 #endif //PATTERN_FACTORY_SETTING_IMPL_HPP

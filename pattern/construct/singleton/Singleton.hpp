@@ -8,7 +8,7 @@
 #include <memory>
 #include <mutex>
 
-class Singleton {
+class Singleton final {
 public:
     static std::shared_ptr<Singleton> get()
     {
