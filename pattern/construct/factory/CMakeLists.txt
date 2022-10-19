@@ -1,5 +1,3 @@
-
-
 include_directories(${gmock_SOURCE_DIR}/include ${gmock_SOURCE_DIR})
 include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
 
@@ -12,7 +10,8 @@ set(HEADER
 set(SRC
         src/SettingFactory.cpp
         src/SettingImpl.hpp
-        src/SettingImpl.cpp)
+        src/SettingImpl.cpp
+        test_factory.cc)
 
 add_executable(ut_factory
         ${HEADER}

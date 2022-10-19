@@ -13,8 +13,8 @@ TEST(Factory, init)
     auto instance2 = createSetting();
 
     EXPECT_EQ(instance.get(), instance2.get());
-    EXPECT_EQ(3, instance.use_count());
-    EXPECT_EQ(3, instance2.use_count());
+    EXPECT_EQ(2, instance.use_count());
+    EXPECT_EQ(2, instance2.use_count());
 
     EXPECT_EQ(1, instance->getSth());
 }
