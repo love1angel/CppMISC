@@ -6,3 +6,4 @@ set(CMAKE_CXX_STANDARD 20)
 enable_testing()
 
 add_subdirectory(construct)
+add_subdirectory(behavior)

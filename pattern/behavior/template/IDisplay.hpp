@@ -2,11 +2,13 @@
 // Created by Helianthus Xie on 2022/9/6.
 //
 
-#ifndef STL_IDISPLAY_HH
-#define STL_IDISPLAY_HH
+#ifndef PATTERN_IDISPLAY_HH
+#define PATTERN_IDISPLAY_HH
 
 class IDisplay {
 public:
+    virtual ~IDisplay() = default;
+
     virtual void open() = 0;
 
     virtual void print() = 0;

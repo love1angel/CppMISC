@@ -31,4 +31,3 @@ TEST(AbstractFactory, init)
     EXPECT_EQ(3, abstract_apple->getAppleName());
     EXPECT_EQ(4, abstract_banana->getBananaName());
 }
-

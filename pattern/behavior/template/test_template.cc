@@ -2,9 +2,11 @@
 // Created by Helianthus Xie on 2022/9/6.
 //
 
-#include "StrDisplay.hh"
+#include <gtest/gtest.h>
 
-TEST()
+#include "StrDisplay.hpp"
+
+TEST(Template, init)
 {
     StrDisplay display;
     display.display();

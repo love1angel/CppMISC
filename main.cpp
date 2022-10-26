@@ -1,5 +1,6 @@
 #include <iostream>
 #include <set>
+#include <complex>
 //#include <vector>
 //#include "include/type_traits.hh"
 //#include <future>
@@ -58,6 +59,19 @@ public:
     }
 };
 
+template<typename T>
+T max(T const& a, T const & b)
+{
+    static_assert(sizeof(int) < 10, "test");
+    return b < a ? a : b;
+}
+
+template<typename T>
+T max2(T a, T b)
+{
+    return a < b ? b : a;
+}
+
 int main()
 {
 //    std::cout << len(vec) << std::endl;
@@ -67,9 +81,18 @@ int main()
 //    StrDisplay display;
 //    display.display();
 
-    Solution solution;
-    std::vector<int> test{1, 3, 5, 2, 7, 5};
-    std::cout << solution.countSubarrays(test, 1, 5) << std::endl;
+
+    float a = NAN;
+
+    std::string s1 = "mathematics";
+    std::string s2 = "math";
+    std::cout << ::max(1, 2) << std::endl;
+
+
+
+//    Solution solution;
+//    std::vector<int> test{1, 3, 5, 2, 7, 5};
+//    std::cout << solution.countSubarrays(test, 1, 5) << std::endl;
 
 //    int &&r1 = 3;
 //    int &&r3 = static_cast<int &&>(r1);

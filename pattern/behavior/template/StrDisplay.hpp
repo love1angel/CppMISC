@@ -2,10 +2,11 @@
 // Created by Helianthus Xie on 2022/9/6.
 //
 
-#ifndef STL_STRDISPLAY_HH
-#define STL_STRDISPLAY_HH
+#ifndef PATTERN_STRDISPLAY_HPP
+#define PATTERN_STRDISPLAY_HPP
 
-#include "IDisplay.hh"
+#include <iostream>
+#include "IDisplay.hpp"
 
 class StrDisplay : public IDisplay {
 public:
@@ -30,4 +31,4 @@ public:
 };
 
 
-#endif //STL_STRDISPLAY_HH
+#endif //PATTERN_STRDISPLAY_HH

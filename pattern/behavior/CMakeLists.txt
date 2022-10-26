@@ -1,0 +1,2 @@
+add_subdirectory(strategy)
+add_subdirectory(template)
