@@ -4,18 +4,14 @@
 
 #include <gtest/gtest.h>
 
-#include "ProtoType.hpp"
-#include "ObjFactory.hpp"
+#include "Animal.hpp"
+#include "Sheep.hpp"
 
 TEST(ProtoType, init)
 {
-    // type1 should be given from others, not from createPrototype(), we should just receive class Prototype
-    std::shared_ptr<ProtoType> type1 = createPrototype();
-    auto type2 = type1->clone();
+    std::unique_ptr<Animal> dolly = std::make_unique<Sheep>("Dolly");
+    std::unique_ptr<Animal> dolly_clone = dolly->clone();
 
-    EXPECT_EQ(1, type1.use_count());
-
-    EXPECT_EQ(1, type2.use_count());
-
-    EXPECT_NE(type1.get(), type2.get());
+    dolly->makeSound();
+    dolly_clone->makeSound();
 }

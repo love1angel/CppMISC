@@ -4,13 +4,11 @@ include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
 include_directories(include)
 
 set(HEADER
-        include/ProtoType.hpp)
+        include/Animal.hpp
+        include/Sheep.hpp)
 
 set(SRC
-        ObjFactory.hpp
-        ObjFactory.cpp
-        src/ConcreteObject.hpp
-        src/ConcreteObject.cpp
+        src/Sheep.cpp
         test_prototype.cc)
 
 add_executable(ut_prototype
