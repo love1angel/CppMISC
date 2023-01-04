@@ -5,5 +5,7 @@ set(CMAKE_CXX_STANDARD 20)
 
 enable_testing()
 
-add_subdirectory(construct)
-add_subdirectory(behavior)
+# GOF
+add_subdirectory(1_1_creational)
+add_subdirectory(1_2_structural)
+add_subdirectory(1_3_behavioral)

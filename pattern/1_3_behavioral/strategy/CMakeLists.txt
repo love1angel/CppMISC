@@ -1,14 +1,19 @@
 include_directories(${gmock_SOURCE_DIR}/include ${gmock_SOURCE_DIR})
 include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
 
+include_directories(include)
+
 set(HEADER
-        Context.hpp
-        Strategy.hpp
-        SubStrategy.hpp
-        AddStrategy.hpp)
+        include/Context.hpp
+        include/Strategy.hpp
+        )
 
 set(SRC
-        test_strategy.cc)
+        src/Context.cpp
+        src/AddStrategy.hpp
+        src/SubStrategy.hpp
+        test_strategy.cc
+        )
 
 add_executable(ut_strategy
         ${HEADER}

@@ -39,9 +39,9 @@
 //
 //std::shared_mutex mutex;
 
-extern "C" {
-extern int add(int, int) asm("add");
-}
+//extern "C" {
+//extern int add(int, int) asm("add");
+//}
 
 #include <string>
 #include <vector>
@@ -60,20 +60,15 @@ public:
 };
 
 template<typename T>
-T max(T const& a, T const & b)
+T max(T a, T b)
 {
-    static_assert(sizeof(int) < 10, "test");
     return b < a ? a : b;
 }
 
-template<typename T>
-T max2(T a, T b)
-{
-    return a < b ? b : a;
-}
 
 int main()
 {
+    std::cout << max(1, 10) << std::endl;
 //    std::cout << len(vec) << std::endl;
 //    std::cout << typeid(xp::enable_if<true>::type).name() << std::endl;
 //    std::cout << xp::is_same<xp::enable_if<true>::type, int>::value << std::endl;
