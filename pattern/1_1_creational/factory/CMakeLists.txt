@@ -4,7 +4,7 @@ include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
 include_directories(include)
 
 set(HEADER
-        include/Setting.hpp
+        include/SettingInterface.hpp
         include/SettingFactory.hpp)
 
 set(SRC

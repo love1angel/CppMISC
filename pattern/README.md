@@ -4,7 +4,7 @@
 
 1. creational
 - [] singleton
-- [] factory
+- [x] factory
 - [] abstract factory
 - [] builder
 - [x] prototype

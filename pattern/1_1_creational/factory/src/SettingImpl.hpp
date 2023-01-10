@@ -2,12 +2,12 @@
 // Created by Helianthus Xie on 2022/10/17.
 //
 
-#ifndef PATTERN_FACTORY_SETTING_IMPL_HPP
-#define PATTERN_FACTORY_SETTING_IMPL_HPP
+#ifndef PATTERN_FACTORY__SETTINGIMPL_HPP
+#define PATTERN_FACTORY__SETTINGIMPL_HPP
 
-#include "Setting.hpp"
+#include "SettingInterface.hpp"
 
-class SettingImpl : public Setting {
+class SettingImpl : public SettingInterface {
 public:
     SettingImpl() = default;
 
@@ -16,4 +16,4 @@ public:
     [[nodiscard]] int getSth() const override;
 };
 
-#endif //PATTERN_FACTORY_SETTING_IMPL_HPP
+#endif //PATTERN_FACTORY__SETTINGIMPL_HPP

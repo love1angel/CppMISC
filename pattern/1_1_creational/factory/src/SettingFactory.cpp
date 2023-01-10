@@ -6,7 +6,7 @@
 
 #include "SettingImpl.hpp"
 
-std::shared_ptr<Setting> createSetting()
+std::shared_ptr<SettingInterface> createSetting()
 {
     static std::weak_ptr<SettingImpl> instance;
     auto retVal = instance.lock();
