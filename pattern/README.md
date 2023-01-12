@@ -3,6 +3,7 @@
 ## GOF 23
 
 1. creational
+
 - [] singleton
 - [x] factory
 - [] abstract factory
@@ -10,9 +11,12 @@
 - [x] prototype
 
 2. structural
+
 - [x] decorator
+- [] proxy
 
 3. behavioral
+
 - [] strategy
 - [x] visitor
 
@@ -23,7 +27,6 @@
 ## normal
 
 1. MVC, MVP, MVVM
-
 
 ## reference
 
