@@ -2,8 +2,8 @@
 // Created by Helianthus Xie on 2022/9/6.
 //
 
-#ifndef PATTERN_IDISPLAY_HH
-#define PATTERN_IDISPLAY_HH
+#ifndef PATTERN_TEMPLATEMETHOD__IDISPLAY_HH
+#define PATTERN_TEMPLATEMETHOD__IDISPLAY_HH
 
 class IDisplay {
 public:
@@ -14,13 +14,6 @@ public:
     virtual void print() = 0;
 
     virtual void close() = 0;
-
-    void display()
-    {
-        open();
-        print();
-        close();
-    }
 };
 
-#endif //STL_IDISPLAY_HH
+#endif //PATTERN_TEMPLATEMETHOD__IDISPLAY_HH

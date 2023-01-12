@@ -19,6 +19,7 @@
 
 - [] strategy
 - [x] visitor
+- [] template method
 
 ## C++ exclusive
 

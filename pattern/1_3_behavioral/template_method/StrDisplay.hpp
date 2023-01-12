@@ -2,8 +2,8 @@
 // Created by Helianthus Xie on 2022/9/6.
 //
 
-#ifndef PATTERN_STRDISPLAY_HPP
-#define PATTERN_STRDISPLAY_HPP
+#ifndef PATTERN_TEMPLATEMETHOD__STRDISPLAY_HPP
+#define PATTERN_TEMPLATEMETHOD__STRDISPLAY_HPP
 
 #include <iostream>
 #include "IDisplay.hpp"
@@ -30,5 +30,4 @@ public:
     }
 };
 
-
-#endif //PATTERN_STRDISPLAY_HH
+#endif //PATTERN_TEMPLATEMETHOD__STRDISPLAY_HH
