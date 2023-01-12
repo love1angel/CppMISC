@@ -14,6 +14,7 @@
 
 3. behavioral
 - [] strategy
+- [x] visitor
 
 ## C++ exclusive
 
