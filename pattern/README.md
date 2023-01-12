@@ -14,6 +14,7 @@
 
 - [x] decorator
 - [] proxy
+- [] facade
 
 3. behavioral
 
