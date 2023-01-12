@@ -4,8 +4,8 @@
 
 // this file is factory, made for provider factory to client(UT)
 
-#ifndef PATTERN_ABSTRACT_FACTORY_DOMAIN_FACTORY_HPP
-#define PATTERN_ABSTRACT_FACTORY_DOMAIN_FACTORY_HPP
+#ifndef PATTERN_ABSTRACTFACTORY__DOMAINFACTORY_HPP
+#define PATTERN_ABSTRACTFACTORY__DOMAINFACTORY_HPP
 
 #include <memory>
 
@@ -15,4 +15,4 @@ std::shared_ptr<AbstractFactory> createCNFactory();
 
 std::shared_ptr<AbstractFactory> createUSAFactory();
 
-#endif //PATTERN_ABSTRACT_FACTORY_DOMAIN_FACTORY_HPP
+#endif //PATTERN_ABSTRACTFACTORY__DOMAINFACTORY_HPP

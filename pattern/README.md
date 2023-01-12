@@ -6,7 +6,7 @@
 
 - [] singleton
 - [x] factory
-- [] abstract factory
+- [x] abstract factory
 - [] builder
 - [x] prototype
 

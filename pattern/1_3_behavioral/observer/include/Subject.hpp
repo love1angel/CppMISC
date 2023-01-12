@@ -6,7 +6,6 @@
 #define PATTERN_OBSERVER__SUBJECT_HPP
 
 #include <map>
-#include <memory>
 #include <functional>
 
 template<typename... Args>
@@ -41,7 +40,6 @@ template<typename... Args>
 typename Subject<Args...>::Subscription Subject<Args...>::attach(Listener obj)
 {
     this->m_listeners[m_nextSubscription] = obj;
-
     return m_nextSubscription++;
 }
 

@@ -2,8 +2,8 @@
 // Created by Helianthus Xie on 2022/10/18.
 //
 
-#ifndef PATTERN_ABSTRACT_FACTORY_USA_FACTORY_HPP
-#define PATTERN_ABSTRACT_FACTORY_USA_FACTORY_HPP
+#ifndef PATTERN_ABSTRACTFACTORY__USAFACTORY_HPP
+#define PATTERN_ABSTRACTFACTORY__USAFACTORY_HPP
 
 #include "AbstractFactory.hpp"
 
@@ -16,4 +16,4 @@ public:
     std::shared_ptr<AbstractBanana> createBanana() override;
 };
 
-#endif //PATTERN_ABSTRACT_FACTORY_USA_FACTORY_HPP
+#endif //PATTERN_ABSTRACTFACTORY__USAFACTORY_HPP
