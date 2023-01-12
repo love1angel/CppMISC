@@ -3,16 +3,12 @@
 //
 
 #include "Context.hpp"
-#include "AddStrategy.hpp"
-#include "SubStrategy.hpp"
 
-Context::Context(std::string context)
+#include "Strategy.hpp"
+
+Context::Context(std::unique_ptr<Strategy> &&strategy)
+        : m_strategy(std::move(strategy))
 {
-    if ("+" == context) {
-        m_strategy = std::make_unique<AddStrategy>();
-    } else if ("-" == context){
-        m_strategy = std::make_unique<SubStrategy>();
-    }
 }
 
 int Context::compute(int lhs, int rhs) const

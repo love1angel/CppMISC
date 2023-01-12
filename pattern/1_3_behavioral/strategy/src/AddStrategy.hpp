@@ -2,8 +2,8 @@
 // Created by Helianthus Xie on 2023/1/4.
 //
 
-#ifndef PATTERN_STRATEGY_ADDSTRATEGY_HPP
-#define PATTERN_STRATEGY_ADDSTRATEGY_HPP
+#ifndef PATTERN_STRATEGY__ADDSTRATEGY_HPP
+#define PATTERN_STRATEGY__ADDSTRATEGY_HPP
 
 #include "Strategy.hpp"
 
@@ -15,4 +15,4 @@ public:
     }
 };
 
-#endif //PATTERN_STRATEGY_ADDSTRATEGY_HPP
+#endif //PATTERN_STRATEGY__ADDSTRATEGY_HPP

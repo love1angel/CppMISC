@@ -5,11 +5,15 @@
 #include <gtest/gtest.h>
 
 #include "Context.hpp"
+#include "src/AddStrategy.hpp"
+#include "src/SubStrategy.hpp"
 
 TEST(Strategy, init)
 {
-    Context context_plus("+");
-    EXPECT_EQ(context_plus.compute(1, 2), 3);
-    Context context_minus("-");
-    EXPECT_EQ(context_minus.compute(3, 2), 1);
+    // this construct should use like factory to create
+    Context context1(std::make_unique<AddStrategy>());
+    EXPECT_EQ(1, context1.compute(-7, 8));
+
+    Context context2(std::make_unique<SubStrategy>());
+    EXPECT_EQ(-15, context2.compute(-7, 8));
 }
