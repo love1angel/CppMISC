@@ -2,8 +2,8 @@
 // Created by Helianthus Xie on 2023/1/4.
 //
 
-#ifndef PATTERN_CONFERENCETICKET_HPP
-#define PATTERN_CONFERENCETICKET_HPP
+#ifndef PATTERN_DECORATOR__CONFERENCETICKET_HPP
+#define PATTERN_DECORATOR__CONFERENCETICKET_HPP
 
 #include "Item.hpp"
 
@@ -28,4 +28,4 @@ private:
     Money m_price{};
 };
 
-#endif //PATTERN_CONFERENCETICKET_HPP
+#endif //PATTERN_DECORATOR__CONFERENCETICKET_HPP

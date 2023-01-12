@@ -2,8 +2,8 @@
 // Created by Helianthus Xie on 2023/1/4.
 //
 
-#ifndef PATTERN_DECORATEDITEM_HPP
-#define PATTERN_DECORATEDITEM_HPP
+#ifndef PATTERN_DECORATOR__DECORATEDITEM_HPP
+#define PATTERN_DECORATOR__DECORATEDITEM_HPP
 
 #include "Item.hpp"
 
@@ -32,4 +32,4 @@ private:
     std::unique_ptr<Item> m_item;
 };
 
-#endif //PATTERN_DECORATEDITEM_HPP
+#endif //PATTERN_DECORATOR__DECORATEDITEM_HPP

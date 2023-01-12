@@ -2,8 +2,8 @@
 // Created by Helianthus Xie on 2023/1/4.
 //
 
-#ifndef PATTERN_DISCOUNTED_HPP
-#define PATTERN_DISCOUNTED_HPP
+#ifndef PATTERN_DECORATOR__DISCOUNTED_HPP
+#define PATTERN_DECORATOR__DISCOUNTED_HPP
 
 #include "DecoratedItem.hpp"
 
@@ -18,9 +18,8 @@ public:
         return item().price() * factor_;
     }
 
-
 private:
     double factor_;
 };
 
-#endif //PATTERN_DISCOUNTED_HPP
+#endif //PATTERN_DECORATOR__DISCOUNTED_HPP

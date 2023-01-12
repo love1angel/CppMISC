@@ -2,8 +2,8 @@
 // Created by Helianthus Xie on 2023/1/4.
 //
 
-#ifndef PATTERN_DECORATOR_ITEM_HPP
-#define PATTERN_DECORATOR_ITEM_HPP
+#ifndef PATTERN_DECORATOR__ITEM_HPP
+#define PATTERN_DECORATOR__ITEM_HPP
 
 using Money = double;
 
@@ -14,4 +14,4 @@ public:
     virtual Money price() const = 0;
 };
 
-#endif //PATTERN_DECORATOR_ITEM_HPP
+#endif //PATTERN_DECORATOR__ITEM_HPP

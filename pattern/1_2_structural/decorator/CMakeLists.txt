@@ -23,5 +23,3 @@ add_executable(ut_decorator
 target_link_libraries(ut_decorator gtest gtest_main)
 
 add_test(NAME ut_decorator COMMAND ut_decorator)
-
-

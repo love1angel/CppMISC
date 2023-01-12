@@ -10,8 +10,10 @@
 - [x] prototype
 
 2. structural
+- [x] decorator
 
 3. behavioral
+- [] strategy
 
 ## C++ exclusive
 

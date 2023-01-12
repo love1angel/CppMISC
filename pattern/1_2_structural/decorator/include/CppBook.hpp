@@ -2,8 +2,8 @@
 // Created by Helianthus Xie on 2023/1/4.
 //
 
-#ifndef PATTERN_CPPBOOK_HPP
-#define PATTERN_CPPBOOK_HPP
+#ifndef PATTERN_DECORATOR__CPPBOOK_HPP
+#define PATTERN_DECORATOR__CPPBOOK_HPP
 
 #include "Item.hpp"
 
@@ -26,4 +26,4 @@ private:
     Money m_price{};
 };
 
-#endif //PATTERN_CPPBOOK_HPP
+#endif //PATTERN_DECORATOR__CPPBOOK_HPP
