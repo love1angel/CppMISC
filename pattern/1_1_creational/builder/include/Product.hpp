@@ -2,8 +2,8 @@
 // Created by Helianthus Xie on 2022/10/19.
 //
 
-#ifndef STL_PRODUCT_HPP
-#define STL_PRODUCT_HPP
+#ifndef PATTERN_BUILDER__PRODUCT_HPP
+#define PATTERN_BUILDER__PRODUCT_HPP
 
 class Product {
 public:
@@ -25,4 +25,4 @@ private:
     bool m_available;
 };
 
-#endif //STL_PRODUCT_HPP
+#endif //PATTERN_BUILDER__PRODUCT_HPP

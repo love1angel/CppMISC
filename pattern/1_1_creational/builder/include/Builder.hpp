@@ -2,8 +2,8 @@
 // Created by Helianthus Xie on 2022/10/19.
 //
 
-#ifndef PATTERN_BUILDER_BUILDER_HPP
-#define PATTERN_BUILDER_BUILDER_HPP
+#ifndef PATTERN_BUILDER__BUILDER_HPP
+#define PATTERN_BUILDER__BUILDER_HPP
 
 #include <memory>
 
@@ -20,4 +20,4 @@ public:
     virtual std::shared_ptr<Product> getProduct() const = 0;
 };
 
-#endif //PATTERN_BUILDER_BUILDER_HPP
+#endif //PATTERN_BUILDER__BUILDER_HPP

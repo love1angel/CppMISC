@@ -2,8 +2,8 @@
 // Created by Helianthus Xie on 2022/10/19.
 //
 
-#ifndef STL_CONCRETEBUILDER_HPP
-#define STL_CONCRETEBUILDER_HPP
+#ifndef PATTERN_BUILDER__CONCRETEBUILDER_HPP
+#define PATTERN_BUILDER__CONCRETEBUILDER_HPP
 
 #include "Builder.hpp"
 
@@ -24,4 +24,4 @@ private:
     std::shared_ptr<Product> m_product;
 };
 
-#endif //STL_CONCRETEBUILDER_HPP
+#endif //PATTERN_BUILDER__CONCRETEBUILDER_HPP

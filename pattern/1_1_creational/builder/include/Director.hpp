@@ -2,8 +2,8 @@
 // Created by Helianthus Xie on 2022/10/19.
 //
 
-#ifndef PATTERN_BUILDER_DIRECTOR_HPP
-#define PATTERN_BUILDER_DIRECTOR_HPP
+#ifndef PATTERN_BUILDER__DIRECTOR_HPP
+#define PATTERN_BUILDER__DIRECTOR_HPP
 
 #include <memory>
 
@@ -18,4 +18,4 @@ public:
     std::shared_ptr<Product> buildProduct(std::shared_ptr<Builder> builder);
 };
 
-#endif //PATTERN_BUILDER_DIRECTOR_HPP
+#endif //PATTERN_BUILDER__DIRECTOR_HPP
