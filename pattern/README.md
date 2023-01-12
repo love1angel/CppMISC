@@ -23,6 +23,7 @@
 - [x] visitor
 - [] template method
 - [x] observer
+- [] state
 
 ## C++ exclusive
 
