@@ -15,12 +15,14 @@
 - [x] decorator
 - [] proxy
 - [] facade
+- [] adapter
 
 3. behavioral
 
 - [] strategy
 - [x] visitor
 - [] template method
+- [x] observer
 
 ## C++ exclusive
 

@@ -18,7 +18,7 @@ public:
     std::string const &title() const
     { return m_title; }
 
-    Money price() const
+    Money price() const override
     { return m_price; }
 
 private:
