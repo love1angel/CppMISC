@@ -16,6 +16,7 @@
 - [] proxy
 - [] facade
 - [] adapter
+- [] composite
 
 3. behavioral
 
