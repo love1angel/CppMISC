@@ -26,6 +26,7 @@
 - [x] observer
 - [] state
 - [] memento
+- [] iterator
 
 ## C++ exclusive
 

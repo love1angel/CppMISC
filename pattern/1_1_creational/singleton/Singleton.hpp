@@ -2,8 +2,8 @@
 // Created by Helianthus Xie on 2022/10/12.
 //
 
-#ifndef PATTERN_SINGLETON_HPP
-#define PATTERN_SINGLETON_HPP
+#ifndef PATTERN_SINGLETON__SINGLETON_HPP
+#define PATTERN_SINGLETON__SINGLETON_HPP
 
 #include <memory>
 #include <mutex>
@@ -27,4 +27,4 @@ private:
 std::shared_ptr<Singleton> Singleton::m_instance = nullptr;
 std::mutex Singleton::m_getMutex;
 
-#endif //PATTERN_SINGLETON_HPP
+#endif //PATTERN_SINGLETON__SINGLETON_HPP
