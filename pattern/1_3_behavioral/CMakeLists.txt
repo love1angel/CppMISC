@@ -1,3 +1,4 @@
+add_subdirectory(memento)
 add_subdirectory(observer)
 add_subdirectory(strategy)
 add_subdirectory(template_method)

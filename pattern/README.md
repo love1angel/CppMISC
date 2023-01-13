@@ -24,6 +24,7 @@
 - [] template method
 - [x] observer
 - [] state
+- [] memento
 
 ## C++ exclusive
 
