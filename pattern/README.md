@@ -28,6 +28,7 @@
 - [] state
 - [] memento
 - [] iterator
+- [] command
 
 ## C++ exclusive
 
