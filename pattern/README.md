@@ -18,6 +18,7 @@
 - [] adapter
 - [] composite
 - [] bridge
+- [] flyweight
 
 3. behavioral
 
@@ -30,6 +31,8 @@
 - [] iterator
 - [] command
 - [] chain of responsibility
+- [] mediator
+- [] interpreter
 
 ## C++ exclusive
 
