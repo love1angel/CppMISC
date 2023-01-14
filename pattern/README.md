@@ -29,6 +29,7 @@
 - [] memento
 - [] iterator
 - [] command
+- [] chain of responsibility
 
 ## C++ exclusive
 

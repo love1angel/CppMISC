@@ -1,3 +1,4 @@
+add_subdirectory(chain_of_responsibility)
 add_subdirectory(memento)
 add_subdirectory(observer)
 add_subdirectory(strategy)
