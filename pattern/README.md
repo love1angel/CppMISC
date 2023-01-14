@@ -17,6 +17,7 @@
 - [] facade
 - [] adapter
 - [] composite
+- [] bridge
 
 3. behavioral
 
