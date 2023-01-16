@@ -5,9 +5,11 @@ set(HEADER
         Singleton.hpp)
 
 set(SRC
-        test_singleton.cc)
+        Singleton.cpp
+        )
 
 add_executable(ut_singleton
+        test_singleton.cc
         ${HEADER}
         ${SRC})
 

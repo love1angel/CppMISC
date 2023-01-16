@@ -24,7 +24,4 @@ private:
     static std::mutex m_getMutex;
 };
 
-std::shared_ptr<Singleton> Singleton::m_instance = nullptr;
-std::mutex Singleton::m_getMutex;
-
 #endif //PATTERN_SINGLETON__SINGLETON_HPP
