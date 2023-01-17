@@ -9,12 +9,14 @@
 #include <mutex>
 
 class Singleton final {
+    Singleton() = default;
+
 public:
     static std::shared_ptr<Singleton> get()
     {
         std::lock_guard lock(m_getMutex);
         if (!m_instance) {
-            m_instance = std::make_shared<Singleton>();
+            m_instance.reset(new Singleton());
         }
         return m_instance;
     }
